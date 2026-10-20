@@ -27,13 +27,14 @@ const jocuri = [
   },
 {
     id: 3,
-    titlu: "Command & Conquer: Red Alert 3",
+    titlu: "Halo Wars 2",
     terminat: false,
-    platforma: "pc",
+    platforma: "xbox",
     gen: "Sci-Fi RTS",
-    expansiuni: "Uprising",
+    expansiuni: "Awakening the Nightmare, Operation Spearbreaker",
     osturi: [
-      { titlu: "Soviet March", url: "https://example.com/ra3-soviet-march.mp3" }
+      { titlu: "I Know You", url: "https://example.com/hw2-i-know-you.mp3" },
+      { titlu: "Recommissioned", url: "https://example.com/hw2-recommissioned.mp3" }
     ]
   }
 ];

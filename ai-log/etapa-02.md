@@ -9,7 +9,7 @@
 ## Solicitări cheie
 
 ### 1. Modelarea datelor și imutabilitatea
-- Cerut: Cum să mut datele din HTML în JS folosind metodele funcționale de array (map, filter, reduce) pe jocuri RTS (WARNO, StarCraft II, Red Alert 3).
+- Cerut: Cum să mut datele din HTML în JS folosind metodele funcționale de array (map, filter, reduce) pe jocuri RTS (WARNO, StarCraft II, Halo Wars 2).
 - Răspuns primit: Implementarea unui array de obiecte cu funcții care întorc copii noi folosind spread operator (`[...]`, `{...}`).
 - Modificat / respins: Am păstrat câmpurile specifice de gen, DLC și OST ca proprietăți de obiect.
 

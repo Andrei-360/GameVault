@@ -1,10 +1,10 @@
-/* 4.1. Reset și Modelul cutiei */
+
 * {
   box-sizing: border-box;
 }
 
 :root {
-  /* Variabile de culoare tema luminoasă */
+
   --bg: #f4f5f7;
   --card: #ffffff;
   --text: #1f2933;
@@ -50,7 +50,6 @@ body {
   opacity: 0.9;
 }
 
-/* 4.3. Layout Grid cu două coloane */
 .container {
   max-width: 1000px;
   margin: 24px auto;
@@ -61,7 +60,6 @@ body {
   align-items: start;
 }
 
-/* 4.4. Panourile */
 .panel {
   background: var(--card);
   border: 1px solid var(--border);
@@ -133,7 +131,7 @@ body {
   border: 1px solid var(--border);
   border-radius: 10px;
   background: var(--card);
-  transition: border-color 0.2s ease, background-color 0.2s ease;
+  transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
 }
 
 .item-card:hover {
@@ -186,6 +184,40 @@ body {
   color: var(--muted);
 }
 
+.item-card.card-warno {
+  position: relative;
+  background-image: 
+    linear-gradient(to right, rgba(20, 18, 30, 0.75) 20%, rgba(20, 18, 30, 0.3) 100%),
+    url("img/11th ACR gif.gif"); /* sau url("img/warno.gif") dacă l-ai redenumit */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-color: #4a4168;
+}
+
+.item-card.card-warno:hover {
+  background-image: 
+    linear-gradient(to right, rgba(20, 18, 30, 0.6) 20%, rgba(20, 18, 30, 0.15) 100%),
+    url("img/11th ACR gif.gif");
+  border-color: var(--accent);
+}
+
+.item-card.card-warno h3 {
+  color: #ffffff;
+}
+
+.item-card.card-warno .game-details {
+  color: #e5e7eb;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.item-card.card-warno .status {
+  color: #f3f4f6;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
 /* Subsol */
 .app-footer {
   text-align: center;
@@ -194,13 +226,45 @@ body {
   font-size: 0.9rem;
 }
 
-/* Pasul 5: Focus vizibil la navigarea cu tastatura (Tab) */
+.item-card.card-sc2,
+.item-card.done.card-sc2 {
+  position: relative;
+  background: 
+    linear-gradient(to right, rgba(20, 18, 30, 0.75) 25%, rgba(20, 18, 30, 0.35) 100%),
+    url("img/sc2.gif") center right / cover no-repeat;
+  border-color: #3b4261;
+  opacity: 1;
+}
+
+.item-card.card-sc2:hover,
+.item-card.done.card-sc2:hover {
+  background: 
+    linear-gradient(to right, rgba(20, 18, 30, 0.55) 25%, rgba(20, 18, 30, 0.15) 100%),
+    url("img/SC 2 hots Terran.gif") center right / cover no-repeat;
+  border-color: var(--accent);
+}
+
+.item-card.card-sc2 h3 {
+  color: #e2e8f0;
+}
+
+.item-card.card-sc2 .game-details {
+  color: #cbd5e1;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.item-card.card-sc2 .status {
+  color: #a7f3d0;
+  background: rgba(6, 78, 59, 0.75);
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
 
-/* 4.9. Adaptare la ecrane înguste (< 700px) */
 @media (max-width: 700px) {
   .container {
     grid-template-columns: 1fr;
