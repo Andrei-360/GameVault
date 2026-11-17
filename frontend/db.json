@@ -1,0 +1,53 @@
+{
+  "jocuri": [
+    {
+      "id": 1,
+      "titlu": "WARNO",
+      "terminat": false,
+      "platforma": "PC",
+      "gen": "Tactical RTS",
+      "expansiuni": "NORTHAG, SOUTHAG, Nemesis #1: Air Assault",
+      "trailer": "https://www.youtube-nocookie.com/embed/aGeaqOOMS9A",
+      "soundtrack": "Silicon Tribes Composed by Sebastien Alaiwan Ace17",
+      "ostEmbed": "https://www.youtube-nocookie.com/embed/nOsQq5W8uzk"
+    },
+    {
+      "id": 2,
+      "titlu": "StarCraft II",
+      "terminat": true,
+      "platforma": "PC",
+      "gen": "Sci-Fi RTS",
+      "expansiuni": "Heart of the Swarm, Legacy of the Void",
+      "trailer": "https://www.youtube-nocookie.com/embed/fqE4At_ltB4",
+      "soundtrack": "Terran Theme 01 (Heaven's Devils) - Glenn Stafford",
+      "ostEmbed": "https://www.youtube-nocookie.com/embed/dRA2nEUmjig"
+    },
+    {
+      "id": 3,
+      "titlu": "Halo Wars 2",
+      "terminat": false,
+      "platforma": "Xbox",
+      "gen": "Sci-Fi RTS",
+      "expansiuni": "Awakening the Nightmare, Operation Spearbreaker",
+      "trailer": "https://www.youtube-nocookie.com/embed/lnYuNXolf4Y",
+      "soundtrack": "Cratered - Gordy Haab",
+      "ostEmbed": "https://www.youtube-nocookie.com/embed/oR1lRDmUAfI"
+    },
+    {
+      "id": 4,
+      "titlu": "Hades",
+      "terminat": true,
+      "platforma": "PC",
+      "gen": "RPG & Aventură",
+      "expansiuni": "Fără expansiuni"
+    },
+    {
+      "id": 5,
+      "titlu": "God of War",
+      "terminat": true,
+      "platforma": "PlayStation",
+      "gen": "RPG & Aventură",
+      "expansiuni": "Valhalla"
+    }
+  ]
+}
