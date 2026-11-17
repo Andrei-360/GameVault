@@ -48,6 +48,12 @@
       "platforma": "PlayStation",
       "gen": "RPG & Aventură",
       "expansiuni": "Valhalla"
+    },
+    {
+      "titlu": "Command and Conquer Red Aler 3",
+      "platforma": "PC",
+      "terminat": true,
+      "id": 6
     }
   ]
 }
